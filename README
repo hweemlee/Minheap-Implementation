@@ -1,0 +1,30 @@
+This program is the implementation of a min-heap with C++. It has many functions 
+that are common to heaps. In this program, the functions included are initialize,
+buildheap, insert,delete minimum, decrease key, and print heap.Files part of this
+project are main.cpp, main.h, heap.cpp, heap.h, util.cpp, and util.h.
+
+Progam Commands:
+S, the program stops.
+
+C n, the program creates an empty heap with capacity equal to n, and waits for the
+next command.
+
+On reading R, the program reads in the array A from file HEAPinput.txt, calls the linear time build
+heap algorithm to build the heap based on A, and waits for the next command.
+
+On reading W, the program writes the current heap information to the screen, and waits for the
+next command.
+
+On reading I k, the program inserts an element with key equal to k into the current heap, and waits
+for the next command.
+
+On reading D, the program deletes the minimum element from the heap and prints the key field of
+the deleted element on the screen, it waits for the next command.
+
+On reading K i v, the program decreases the key of element with index i to the new value v, provided
+that the new value is not larger than the previous value.
+
+Hwee Lee
+CSE310-B
+Project 2
+3/30/2017
